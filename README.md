@@ -1,19 +1,43 @@
-# Getting Started
-Install the dependencies and run the project
+# Basketball Scoreboard
+
+A simple, interactive basketball scoreboard web application from Scrimba that allows you to track scores for two teams (HOME and GUEST) with a fun confetti celebration when a team reaches 10 points.
+
+## Features
+
+- **Score Tracking**: Add 1, 2, or 3 points to either team's score
+- **Visual Design**: Dark blue theme with a retro scoreboard aesthetic
+- **Custom Font**: Uses the CursedTimer font for an authentic scoreboard look
+- **Confetti Celebration**: Automatic confetti animation when a team reaches 10 points
+- **New Game**: Reset both scores to start a fresh game
+
+## How to Use
+
+1. Open `index.html` in your web browser
+2. Click the `+1`, `+2`, or `+3` buttons to add points to the respective team
+3. When a team reaches 10 points, a confetti celebration will automatically trigger
+4. Click the "new game" button to reset both scores to 0
+
+## Project Structure
+
 ```
-npm install
-npm start
+Scrim-s04k019/
+├── index.html          # Main HTML structure
+├── index.css           # Styling and layout
+├── index.js            # Score tracking and confetti logic
+├── CursedTimerUlil-Aznm.ttf  # Custom scoreboard font
+└── README.md           # This file
 ```
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+## Technologies Used
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+- **HTML5**: Structure and layout
+- **CSS3**: Styling with custom fonts and animations
+- **JavaScript**: Score tracking and interactivity
+- **tsparticles/confetti**: Confetti animation library (loaded via CDN)
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## Browser Compatibility
 
-Happy Coding!
+Works in all modern web browsers that support:
+- ES6 JavaScript
+- CSS Grid and Flexbox
+- Custom fonts (@font-face)
