@@ -29,13 +29,13 @@ function plusButton(btn){
     let score = Number(buttonId.split('-')[2])
     
     // update the text of scoreEl
-    if (place === 'home' && Number(homeScoreEl.textContent) < 10){
+    if (place === 'home' && Number(homeScoreEl.textContent) < 10 && Number(guestScoreEl.textContent) < 10){
         homeScoreEl.textContent = Number(homeScoreEl.textContent) + score
         if (Number(homeScoreEl.textContent) >= 10){
             shoot()
         }
     }
-    else if(place === 'guest' && Number(guestScoreEl.textContent) < 10){
+    else if(place === 'guest' && Number(guestScoreEl.textContent) < 10 && Number(homeScoreEl.textContent) < 10){
         guestScoreEl.textContent = Number(guestScoreEl.textContent) + score
         if (Number(guestScoreEl.textContent) >= 10){
             shoot()
