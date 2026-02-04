@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class='full-container'>
+            <div class="container">
+                <div class='sub-container'>
+                    <h3>HOME</h3>
+                    <div class='score-board'>
+                        <div class='score font-90 pinky' id='home-score'>0</div>
+                    </div>
+                    <div class='button-board'>
+                        <button id='home-plus-1' onclick='plusButton(this)'>+1</button>
+                        <button id='home-plus-2' onclick='plusButton(this)'>+2</button>
+                        <button id='home-plus-3' onclick='plusButton(this)'>+3</button>
+                    </div>
+                </div>
+                <div class='sub-container'>
+                    <h3>GUEST</h3>
+                    <div class='score-board'>
+                        <div class='score font-90 pinky' id='guest-score'>0</div>
+                    </div>
+                    <div class='button-board'>
+                        <button id='guest-plus-1' onclick='plusButton(this)'>+1</button>
+                        <button id='guest-plus-2' onclick='plusButton(this)'>+2</button>
+                        <button id='guest-plus-3' onclick='plusButton(this)'>+3</button>
+                    </div>
+                </div>
+            </div>
+            <button id='new-game' onclick='newgame()'>new game</button>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>

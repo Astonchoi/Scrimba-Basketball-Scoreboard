@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'CursedTimer';
+  src: url('/CursedTimerUlil-Aznm.ttf');
+}
+
+body {
+    margin: 0;
+    background: #1B244A;
+    min-width: 600px;
+}
+
+.full-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.score-board {
+    display: grid;
+    place-content: center;
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+    margin: 15px 0px 30px 0px;
+}
+
+.score {
+    font-family: 'CursedTimer';
+}
+
+.pinky {
+    color: #F94F6D;
+}
+
+.font-90 {
+    font-size: 90px;
+}
+
+.button-board{
+    display: flex;
+    justify-content: space-between;
+    width: 155px;
+}
+
+button {
+    font-family: 'CursedTimer';
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    background-color: transparent;
+    color: #9AABD8;
+    transition: all 0.5s ease-out;
+}
+
+button:hover {
+    box-shadow: 1px 1px 3px #6E83BB;
+}
+
+button:active {
+    transform: translateY(5px);
+}
+
+button:focus{
+    outline: 0;
+}
+
+#win-game-count {
+    width: auto;
+    height: auto;
+    margin-top: 16px;
+}
+
+#new-game {
+    width: auto;
+    height: 45px;
+    margin-top: 8px;
+}
