@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'CursedTimer';
-  src: url('../Scrimba-Basketball-Scoreboard/CursedTimerUlil-Aznm.ttf');
+  src: url('../Scrimba-Basketball-Scoreboard/CursedTimerUlil-Aznm.ttf') format('truetype');
 }
 
 body {
