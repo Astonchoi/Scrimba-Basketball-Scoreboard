@@ -91,6 +91,10 @@ button:focus{
     margin-top: 16px;
 }
 
+#home-undo, #guest-undo {
+    margin-top: 16px;
+}
+
 #new-game {
     width: auto;
     height: 45px;
